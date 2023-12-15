@@ -69,7 +69,7 @@ function SignIn() {
       <form action="" className="form_si">
         <div className="si_banner">
           <h1>WELCOME</h1>
-          <p>Sign in now to now what's up</p>
+          <p>Enter Your Account</p>
         </div>
         <div className="si_input">
           <input
@@ -99,7 +99,7 @@ function SignIn() {
         </div>
         <h5 className="su_link">
           <i>
-            Don't have an Account? Sign-up <Link to="/sign-up">here!</Link>
+            Haven't made an Account? Register <Link to="/sign-up">here!</Link>
           </i>
         </h5>
       </form>
