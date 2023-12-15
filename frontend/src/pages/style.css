@@ -1,0 +1,218 @@
+.error{
+   color: red;
+   font-style: italic;
+   font-family: serif;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Sans', sans-serif;
+  }
+
+  /**=========================SIGN IN DESIGN================================================== */
+.form_si{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 20px 30px 20px;
+    background-image: linear-gradient(to bottom right, rgba(30, 134, 56, 0.623), rgba(37, 175, 145, 0.616), rgba(32, 117, 60, 0.712));
+    width: 450px;
+    height: 605px;
+    position: relative;
+    left: 0%;
+    border: solid;
+    border-color: rgb(112, 245, 255);
+    border-radius: 20px;
+    color: black;
+}
+@media screen and (max-width: 960px ){
+    .form_si{
+        width: 320px;
+        height: 500px;
+    }
+}
+
+.si_button{
+    padding: 20px 10px 40px 10px;
+}
+.si_error{
+    padding: 10px;
+}
+.si_in,.si_input,.su_link{
+    position: relative;
+}
+
+.si_in{
+    padding: 5px 10px;
+    width: 150%;
+    border-radius: 10px;
+}
+.si_but{
+    background-color: black; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+.si_but:hover{
+    box-shadow: 0px 0px 1px 1px;
+}
+
+.si_input{
+    padding: 0px 10px 0px 10px;
+    margin: 20px;
+}
+
+.si_input,.si_banner{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.si_banner, .su_link{
+    margin: auto;
+}
+.su_link{
+   bottom: 10px;
+}
+
+/**=================================SIGN UP ======================================== */
+.body_su{
+    background-color: rgb(31, 158, 109);
+    background-size: 1366px 768px;
+    width: 1366px;
+    height: 605px;
+    min-width: 800px;
+    min-height: 300px;
+    position: relative;
+    align-items: center;
+}
+
+.form_su, .cont_su, .su_banner{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.form_su{
+    margin: auto;
+    padding:20px 30px 40px 30px;
+    border-radius: 30px;
+    background-color: rgba(20, 177, 59, 0.795);
+    width: 600px;
+    height: 605px;
+}
+
+.su_banner{
+    padding: 10px 30px 20px 30px;
+    margin: 10px;
+    font-size: large;
+}
+
+.su_button{
+    background-color: black; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.cont_su, .su_row{
+    padding: 5px 20px 5px 20px;
+}
+.cont_su input, .su_row input{
+    height: 30px;
+}
+.su_row{
+    display: flex;
+    flex-direction: row;
+}
+.su_row input{
+    width: 116px;
+}
+select.su_in{
+    width: 205%;
+}
+.su_row_i{
+    padding: 0px 5px 0 5px;
+}
+.su_in{
+    padding: 2px 5px;
+    width: 150%;
+    border-radius: 10px;
+}
+/**=================================PROFILE======================================== */
+.prof-cont{
+    background-image:repeating-radial-gradient(circle, rgba(43, 255, 0, 0.699) , rgba(0, 255, 55, 0.767) , rgba(0, 255, 42, 0.829), rgb(3, 211, 65) , rgb(0, 255, 179) 
+    );
+    margin: auto;
+    padding: auto;
+    width: auto;
+    height: 525px;
+    flex-direction: column;
+}
+
+.prof-cont, .prof_form, .prof_in{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.prof_form{
+    background-color: rgb(206, 202, 202);
+    height: 525px;
+    width: 60%;
+    padding: 10px;
+    margin: auto;
+    padding: 20px 20px 40px 20px;
+    box-shadow: 0px 0px 10px 5px rgb(153, 236, 209);
+}
+.prof_form h3{
+    padding: 0 0 10px 0;
+}
+
+.prof_in, .err_msg, .prof_button{
+    padding: 5px 10px 5px 10px;
+}
+.prof_in input, .prof_form select{
+    width: 400px;
+    padding: 10px 30px 10px 30px;
+    border: none;
+}
+
+.err_msg{
+    color: red;
+    font-style: italic;
+}
+
+.prof_button button{
+    background-color: black; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+
+}input[type="number"] {
+    -moz-appearance: textfield;
+  }
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
